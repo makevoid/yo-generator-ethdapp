@@ -12,6 +12,22 @@ endif::env-github[]
 
 :proj: generator-ethdapp
 
+
+== This Fork:
+
+changes: (TODO)
+
+- change initial page, make a simplestorage contract + page that displays the value (& the state of the value like a div that changes background color) without much else (no yo-logo, no text, blocknumber and coinbase info very small at the edge of the page) 
+- use two spaces instead of tabs
+
+intent: this way it should look more like an app maybe ** (also possibility to add coffeescript/babel/other third party libraries like underscore already set up).
+
+
+
+== Original Readme:
+
+
+
 == First look
 
 image::https://asciinema.org/a/89762.png[link='https://asciinema.org/a/89762']
