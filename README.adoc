@@ -17,10 +17,11 @@ endif::env-github[]
 
 changes: (TODO)
 
+- change name w something like: `generator-ethapp-parity` so that is different from the original - can be something extreme like `generator-ethdapp-parity-mkv` so that it's tagged with a name to not be confused from the original
 - change initial page, make a simplestorage contract + page that displays the value (& the state of the value like a div that changes background color) without much else (no yo-logo, no text, blocknumber and coinbase info very small at the edge of the page) 
 - use two spaces instead of tabs
 
-intent: this way it should look more like an app maybe ** (also possibility to add coffeescript/babel/other third party libraries like underscore already set up).
+intent: this way it should look more like an app maybe ** (also possibility to add coffeescript/babel/other third party libraries like underscore already set up). - also remove geth :D
 
 
 
@@ -60,7 +61,7 @@ Yeoman travels light. He didn't pack any generators when he moved in. You can th
 To install generator-ethdapp from npm, run:
 
 ```bash
-npm install -g generator-ethdapp
+npm install -g generator-ethapp-parity
 ```
 
 Finally, initiate the generator:
@@ -77,14 +78,9 @@ If you'd like to get to know Yeoman better and meet some of his friends, [Grunt]
 
 == Generating your Dapp
 
-For a generic Dapp:
-```bash
-yo ethdapp
-```
-
 For a Dapp taylored to Parity:
 ```bash
-yo ethdapp:parity
+yo ethdapp
 ```
 
 Then answer the questions. Once you are done, run the deploy script:
