@@ -17,8 +17,16 @@ endif::env-github[]
 
 changes: (TODO)
 
+- change default readme to .md
+
+- deploy not needed - symlink is ok - deploy will be just `pm2 restart parity` 
+
+- TODO ext: add guide on how to use pm2 to run parity (`npm i -g pm2 && pm2 start ./parity-dev) (parity-dev == ./parity + dev args or container with restart) 
+
 - change name w something like: `generator-ethapp-parity` so that is different from the original - can be something extreme like `generator-ethdapp-parity-mkv` so that it's tagged with a name to not be confused from the original
+
 - change initial page, make a simplestorage contract + page that displays the value (& the state of the value like a div that changes background color) without much else (no yo-logo, no text, blocknumber and coinbase info very small at the edge of the page) 
+
 - use two spaces instead of tabs
 
 intent: this way it should look more like an app maybe ** (also possibility to add coffeescript/babel/other third party libraries like underscore already set up). - also remove geth :D
