@@ -19,6 +19,8 @@ changes: (TODO)
 
 - change default readme to .md
 
+- change semantic to bulma, remove jquery, add underscore
+
 - deploy not needed - symlink is ok - deploy will be just `pm2 restart parity` 
 
 - TODO ext: add guide on how to use pm2 to run parity (`npm i -g pm2 && pm2 start ./parity-dev) (parity-dev == ./parity + dev args or container with restart) 
